@@ -38,6 +38,9 @@ class Navbar extends Component {
           <Link to="/cart" className="navLink">
             Cart
           </Link>
+          <Link to="/login" className="navLink">
+            Login
+          </Link>
           <span className="cartCount"> Cart items: {cartCount}</span>
         </div>
       </div>
